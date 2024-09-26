@@ -1,0 +1,60 @@
+
+.bg-img {
+  /*  background-color: rgba(15, 1, 1, 0.825);    */
+    background-size: cover;
+    background-image: url("img/AMU gate.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    animation: animate 50s 2s ease infinite normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes animate {
+    20% {
+        background-image: url("img/Z.jpg");
+    }
+    40% {
+        background-image: url("img/intro.jpg");
+    }
+    60% {
+        background-image: url("img/Winner.jpg");
+    }
+    80% {
+        background-image: url("img/AMU medical graduates.jpg");
+    }
+    100% {
+        background-image: url("img/doc.png");
+    }
+}
+.pad-top {
+    padding-top: 12%;
+}
+
+.round {
+    border-radius: 30px;
+    opacity: 88%;
+    /*
+    box-shadow: 10px 10px 20px orange;
+    */
+}
+
+/*
+td .btn-secondary {
+    border-radius: 20px;
+}
+*/
+td .btn-secondary:hover {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.forget, .rem {
+    color: aqua;
+    transition: 0.1s linear;
+    
+}
+.forget:hover, .rem:hover {
+    color: white;
+    text-shadow: 1px 1px 5px aqua;
+}
